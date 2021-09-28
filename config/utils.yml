@@ -12,17 +12,17 @@ arke:
   - id: 1
     driver: bitfaker
     debug: false
-    host: "http://www.app.local"
-    ws: "ws://www.app.local"
-    key: ""
-    secret: ""
+    host: "http://www.brandlovers.co.za"
+    ws: "ws://www.brandlovers.co.za"
+    key: "fa45a30e94b1eb1c"
+    secret: "6dfdb515791ef72a4e24dae497ae925f"
     delay: 1
 
   - id: 2
     driver: bitfaker
-    host: "api.binance.com"
-    key:
-    secret:
+    host: "api.bitfinex.com"
+    key: "GGMcaLoDdl128x0KMFDzGLptLFlKCh39JRlE9r7vNPf"
+    secret: "ZcfHsJKzUV8JwtNYg82OQ9QgMvzYjraT1DSki8mMwoM"
     delay: 1
 
   strategies:
