@@ -10,16 +10,16 @@ arke:
   log_level: INFO
   accounts:
   - id: 1
-    driver: bitfaker
+    driver: rubykube
     debug: false
-    host: "http://www.brandlovers.co.za"
+    host: "https://www.brandlovers.co.za"
     ws: "ws://www.brandlovers.co.za"
     key: "fa45a30e94b1eb1c"
     secret: "6dfdb515791ef72a4e24dae497ae925f"
     delay: 1
 
   - id: 2
-    driver: bitfaker
+    driver: bitfinex
     host: "api.bitfinex.com"
     key: "GGMcaLoDdl128x0KMFDzGLptLFlKCh39JRlE9r7vNPf"
     secret: "ZcfHsJKzUV8JwtNYg82OQ9QgMvzYjraT1DSki8mMwoM"
@@ -44,7 +44,7 @@ arke:
       account_id: 1
       market:
         id: ETHUSD
-        base: btc
+        base: eth
         quote: usd
         base_precision: 2
         quote_precision: 2
@@ -54,7 +54,7 @@ arke:
     - account_id: 2
       market:
         id: ETHUSD
-        base: BTC
+        base: ETH
         quote: USD
         base_precision: 8
         quote_precision: 8
