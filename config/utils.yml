@@ -11,7 +11,7 @@ arke:
   accounts:
   - id: 1
     driver: rubykube
-    debug: false
+    debug: true
     host: "https://www.brandlovers.co.za"
     ws: "ws://www.brandlovers.co.za"
     key: "fa45a30e94b1eb1c"
@@ -44,10 +44,10 @@ arke:
       account_id: 1
       market:
         id: ETHUSD
-        base: eth
-        quote: usd
+        base: ETH
+        quote: USD
         base_precision: 2
-        quote_precision: 2
+        quote_precision: 5
         min_ask_amount: 1.5
         min_bid_amount: 1.5
     sources:
@@ -63,8 +63,8 @@ arke:
   - id: 2
     type: microtrades
     debug: true
-    period: 5
-    period_random_delay: 10
+    period: 1
+    period_random_delay: 1
     params:
       linked_strategy_id: 1
       min_amount: 0.05
