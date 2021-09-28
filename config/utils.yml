@@ -88,8 +88,8 @@ arke:
         driver: rubykube
         market: 'ETHUSD'
         host: "http://www.brandlovers.co.za"
-        key: ""
-        secret: ""
+        key: "fa45a30e94b1eb1c"
+        secret: "6dfdb515791ef72a4e24dae497ae925f"
         rate_limit: 1
       sources:
         - driver: bitfinex
