@@ -43,7 +43,7 @@ arke:
     target:
       account_id: 1
       market:
-        id: BTCUSD
+        id: ETHUSD
         base: btc
         quote: usd
         base_precision: 2
@@ -53,7 +53,7 @@ arke:
     sources:
     - account_id: 2
       market:
-        id: BTCUSD
+        id: ETHUSD
         base: BTC
         quote: USD
         base_precision: 8
@@ -74,8 +74,8 @@ arke:
     target:
         account_id: 1
         market:
-          id: BTCUSD
-          base: btc
+          id: ETHUSD
+          base: eth
           quote: usd
           base_precision: 2
           quote_precision: 2
@@ -86,27 +86,16 @@ arke:
       volume_ratio: 0.1
       target:
         driver: rubykube
-        market: 'FTHUSD'
-        host: "http://www.app.local"
+        market: 'ETHUSD'
+        host: "http://www.brandlovers.co.za"
         key: ""
         secret: ""
         rate_limit: 1
       sources:
-        - driver: bitfaker
-          market: 'tETHUSD'
-          host: "api.bitfinex.com"
-          key: ""
-          secret: ""
-          rate_limit: 0.2
         - driver: bitfinex
-          market: 'tETHUSD'
+          market: 'ETHUSD'
           host: "api.bitfinex.com"
-          key: ""
-          secret: ""
+          key: "GGMcaLoDdl128x0KMFDzGLptLFlKCh39JRlE9r7vNPf"
+          secret: "ZcfHsJKzUV8JwtNYg82OQ9QgMvzYjraT1DSki8mMwoM"
           rate_limit: 0.2
-        - driver: binance
-          market: 'ETHUSDT'
-          host: "api.binance.com"
-          key: ""
-          secret: ""
-          rate_limit: 0.2
+
